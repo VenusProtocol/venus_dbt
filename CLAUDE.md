@@ -4,7 +4,7 @@
 
 - **Team**: xvslove_team
 - **Branch**: `main`
-- **Schedule**: daily at 03:00 UTC via GitHub Actions (`dbt_prod.yml`), typically starts ~05:00 UTC due to scheduler delay
+- **Schedule**: daily at 03:00 UTC via GitHub Actions (`dbt_prod_v2.yml`), typically starts ~05:00 UTC due to scheduler delay
 - **Dune MCP**: HTTP MCP at `https://api.dune.com/mcp/v1`; requires Claude Code restart to load tools
 - **API keys**: stored locally in `~/.claude.json` — do NOT commit to git
 

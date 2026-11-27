@@ -15,6 +15,9 @@ on:
         type: boolean
         default: false
 
+permissions:
+  contents: read
+
 concurrency:
   group: dbt-prod-runs
   cancel-in-progress: false  # Don't cancel in-progress runs, queue instead

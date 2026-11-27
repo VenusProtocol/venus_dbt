@@ -53,7 +53,7 @@ Tables are written to `dune.xvslove_team.*` and auto-set to public via post-hook
 
 ## GitHub Actions
 
-**`dbt_prod.yml`** — daily incremental run at 03:00 UTC, with manual `workflow_dispatch` supporting `--select` and `--full-refresh`.
+**`dbt_prod_v2.yml`** — daily incremental run at 03:00 UTC, with manual `workflow_dispatch` supporting `--select` and `--full-refresh`.
 
 ## Querying on Dune
 
